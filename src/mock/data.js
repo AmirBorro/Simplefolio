@@ -33,7 +33,7 @@ export const projectsData = [
     title: 'Boxing Factory',
     info: 'Website built using WordPress.',
     info2: 'E-commerce, multi-lingual, integration of a third-party booking software.',
-    url: 'https://wwww.boxingfactory.be',
+    url: 'https://www.boxingfactory.be',
     repo: '', // if no repo, the button will not show up
   },
   {
