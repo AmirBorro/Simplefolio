@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: 'Amir B',
+  name: 'Amir Borro',
   subtitle: "I'm a React developer",
   cta: '',
 };
@@ -34,6 +34,16 @@ export const projectsData = [
     info: 'Website built using WordPress.',
     info2: 'E-commerce, multi-lingual, integration of a third-party booking software.',
     url: 'wwww.boxingfactory.be',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Prosurf.jpeg',
+    title: 'Pro Surf Morocco',
+    info: 'Website built using WordPress.',
+    info2:
+      'The challenge was to offer a solution for making bookings easy in 4 langages and implementing a blog.',
+    url: 'https://www.prosurfmorocco.com/',
     repo: '', // if no repo, the button will not show up
   },
 ];
